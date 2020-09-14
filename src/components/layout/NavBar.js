@@ -9,7 +9,7 @@ export default class NavBar extends Component {
             <header>
                 <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
                     <a href="https://bhanson-pokedex-app.herokuapp.com/" className="navbar-brand col-sm-3 col-md-2 mr-0 align-items-center">Pokedex</a>
-                    <input type="text" name="search" onChange={this.props.change} />
+                    
 
                 </nav>
             </header>
